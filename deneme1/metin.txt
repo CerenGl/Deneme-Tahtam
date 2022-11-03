@@ -97,3 +97,4 @@ while True :
    if condition == 0 :
      break
    
+100. satırdan itibaren değişiklikler yapıyorum.
