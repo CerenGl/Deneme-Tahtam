@@ -1,1 +1,99 @@
 
+set(list_no1)
+frequent = max(set(list_no1), key = list_no1.count)
+print(frequent)
+Output: 2
+
+print(len([[12, 34, 56]][0]))
+
+reef = ['swordfish', 'shark', 'whale', 'jellyfish', 'lobster', 'squid', 'octopus']
+print(reef[::-2])
+
+odd_no = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print(odd_no[7:3:-1])
+print(odd_no[2:6:-1])
+
+first_dict
+
+number = int(input("enter your number:")) 
+if number % 2 == 0 :
+  print("this number is even")
+else :
+  print("this number is odd")
+
+number = int(input("enter your number:")) 
+if number % 2 == 0 :
+  print("{} is even".format(number))
+else :
+  print("{} is odd".format(number))
+
+number = float(input("enter your number:"))
+if number > 0 :
+  print("{} is positive number".format(number))
+else :
+  print("{} is negative number".format(number))
+
+first_num = int(input("enter your number:")) 
+second_num = int(input("enter your number:")) 
+if first_num > second_num:
+  print("The larger number is {}".format(first_num))
+else :
+  print("The larger number is {}".format(second_num))
+
+first_num = int(input("enter your number:")) 
+second_num = int(input("enter your number:")) 
+if first_num > second_num:
+  larger = first_num
+else :
+  larger = second_num
+  print("The larger number is ", larger)
+
+note = int(input("enter your number:"))
+if note >= 90:
+  if note >= 95 :
+    print("A+")
+  else:
+      print("A")
+elif note >= 80:
+  if note >=85:
+    print("B+")
+  else:
+    print("B")
+
+# comfortable word question
+
+left = set("qwertasdfgzxcvb")
+left
+
+right = set("yuıopühjklinmöç")
+right
+
+word = set(input("write your word:"))
+
+# While ve For Loops
+
+while 0 :
+  print("sıfır") .... # falsy olduğu için döngünün içine girmez. 
+
+while 1 :
+  print("yeey") # true olduğu için 
+
+condition = 5
+while condition : 
+  condition -= 1
+  print(condition)
+
+condition = 5
+while condition : 
+   print(condition)
+   condition -= 1
+
+condition = 5
+while True :
+   condition -= 1 
+   print(condition)
+
+   if condition == 0 :
+     break
+   
